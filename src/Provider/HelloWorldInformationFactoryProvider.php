@@ -1,8 +1,8 @@
 <?php
 
-namespace Provider;
+namespace RepositoryInformation\Provider;
 
-use HelloWorldInformationFactory;
+use RepositoryInformation\Factory\HelloWorldInformationFactory;
 use RepositoryInformation\Factory\InformationFactoryProvider;
 use RepositoryInformation\Service\ProviderDependencyService;
 

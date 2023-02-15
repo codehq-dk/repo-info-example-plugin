@@ -1,6 +1,7 @@
 <?php
 
-use RepositoryInformation\Factory\InformationFactory;
+namespace RepositoryInformation\Factory;
+
 use RepositoryInformation\Model\InformationBlock;
 use RepositoryInformation\Model\RepositoryRequirements;
 
