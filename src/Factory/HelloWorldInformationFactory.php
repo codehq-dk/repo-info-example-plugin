@@ -1,9 +1,9 @@
 <?php
 
-namespace RepositoryInformation\Factory;
+namespace CodeHqDk\RepositoryInformation\Factory;
 
-use RepositoryInformation\Model\InformationBlock;
-use RepositoryInformation\Model\RepositoryRequirements;
+use CodeHqDk\RepositoryInformation\Model\InformationBlock;
+use CodeHqDk\RepositoryInformation\Model\RepositoryRequirements;
 
 class HelloWorldInformationFactory implements InformationFactory
 {

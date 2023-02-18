@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codehq-dk/repo-info-contracts.git",
-                "reference": "2220b4beba8aa13054c82f5236c4672deb8111f0"
+                "reference": "9545124a10d1ce812aa1204d429409bc2adf4562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codehq-dk/repo-info-contracts/zipball/2220b4beba8aa13054c82f5236c4672deb8111f0",
-                "reference": "2220b4beba8aa13054c82f5236c4672deb8111f0",
+                "url": "https://api.github.com/repos/codehq-dk/repo-info-contracts/zipball/9545124a10d1ce812aa1204d429409bc2adf4562",
+                "reference": "9545124a10d1ce812aa1204d429409bc2adf4562",
                 "shasum": ""
             },
             "require": {
@@ -30,7 +30,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "RepositoryInformation\\": "src/"
+                    "CodeHqDk\\RepositoryInformation\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -42,7 +42,7 @@
                 "issues": "https://github.com/codehq-dk/repo-info-contracts/issues",
                 "source": "https://github.com/codehq-dk/repo-info-contracts/tree/main"
             },
-            "time": "2023-02-14T22:50:38+00:00"
+            "time": "2023-02-18T21:40:24+00:00"
         }
     ],
     "packages-dev": [
@@ -359,12 +359,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "8083be52c6f5ba5a48eafa154e0aeefd96bda098"
+                "reference": "b5f3416da036fb951a557518e8304b3595ff966a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/8083be52c6f5ba5a48eafa154e0aeefd96bda098",
-                "reference": "8083be52c6f5ba5a48eafa154e0aeefd96bda098",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/b5f3416da036fb951a557518e8304b3595ff966a",
+                "reference": "b5f3416da036fb951a557518e8304b3595ff966a",
                 "shasum": ""
             },
             "require": {
@@ -428,7 +428,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-02-11T08:53:26+00:00"
+            "time": "2023-02-18T16:27:54+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -677,12 +677,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "4e6f3c050b54192d0a28c6f314a3567c00a7d017"
+                "reference": "c1bf2dd252dec994ee27d804c038a98fd0d1d940"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4e6f3c050b54192d0a28c6f314a3567c00a7d017",
-                "reference": "4e6f3c050b54192d0a28c6f314a3567c00a7d017",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c1bf2dd252dec994ee27d804c038a98fd0d1d940",
+                "reference": "c1bf2dd252dec994ee27d804c038a98fd0d1d940",
                 "shasum": ""
             },
             "require": {
@@ -771,7 +771,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-14T15:49:39+00:00"
+            "time": "2023-02-18T16:26:49+00:00"
         },
         {
             "name": "sebastian/cli-parser",

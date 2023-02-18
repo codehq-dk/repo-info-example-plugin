@@ -1,10 +1,10 @@
 <?php
 
-namespace RepositoryInformation\Provider;
+namespace CodeHqDk\RepositoryInformation\Provider;
 
-use RepositoryInformation\Factory\HelloWorldInformationFactory;
-use RepositoryInformation\Factory\InformationFactoryProvider;
-use RepositoryInformation\Service\ProviderDependencyService;
+use CodeHqDk\RepositoryInformation\Factory\HelloWorldInformationFactory;
+use CodeHqDk\RepositoryInformation\Factory\InformationFactoryProvider;
+use CodeHqDk\RepositoryInformation\Service\ProviderDependencyService;
 
 class HelloWorldInformationFactoryProvider implements InformationFactoryProvider
 {
