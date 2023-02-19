@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codehq-dk/repo-info-contracts.git",
-                "reference": "18b401b0cbd09100f09759754cbb4df886edd2f3"
+                "reference": "e24d15dc4601468fb47702f8625fe33be52bf53f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codehq-dk/repo-info-contracts/zipball/18b401b0cbd09100f09759754cbb4df886edd2f3",
-                "reference": "18b401b0cbd09100f09759754cbb4df886edd2f3",
+                "url": "https://api.github.com/repos/codehq-dk/repo-info-contracts/zipball/e24d15dc4601468fb47702f8625fe33be52bf53f",
+                "reference": "e24d15dc4601468fb47702f8625fe33be52bf53f",
                 "shasum": ""
             },
             "require": {
@@ -42,7 +42,7 @@
                 "issues": "https://github.com/codehq-dk/repo-info-contracts/issues",
                 "source": "https://github.com/codehq-dk/repo-info-contracts/tree/main"
             },
-            "time": "2023-02-19T13:30:34+00:00"
+            "time": "2023-02-19T20:41:48+00:00"
         }
     ],
     "packages-dev": [
