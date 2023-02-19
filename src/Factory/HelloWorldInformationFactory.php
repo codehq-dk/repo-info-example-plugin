@@ -2,16 +2,15 @@
 
 namespace CodeHqDk\RepositoryInformation\Factory;
 
-use CodeHqDk\RepositoryInformation\Model\InformationBlock;
+use CodeHqDk\RepositoryInformation\InformationBlocks\HelloWorldInformationBlock;
 use CodeHqDk\RepositoryInformation\Model\RepositoryRequirements;
 
 class HelloWorldInformationFactory implements InformationFactory
 {
-
     public function createBlocks(string $local_path_to_code): array
     {
         return [
-            new InformationBlock(
+            new HelloWorldInformationBlock(
                 'hello-world-example',
                 'This is the famous Hello World',
                 self::class,
@@ -25,5 +24,12 @@ class HelloWorldInformationFactory implements InformationFactory
     public function getRepositoryRequirements(): RepositoryRequirements
     {
         return new RepositoryRequirements(false, false, false, false);
+    }
+
+    public function listAvailableInformationBlocks(): array
+    {
+        return [
+            HelloWorldInformationBlock::class
+        ];
     }
 }
