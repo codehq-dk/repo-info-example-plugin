@@ -11,11 +11,11 @@ class HelloWorldInformationFactory implements InformationFactory
     {
         return [
             new HelloWorldInformationBlock(
-                'hello-world-example',
+                'Information plugin exmaple',
+                'Hello World',
                 'This is the famous Hello World',
-                self::class,
                 time(),
-                'Hello world',
+                'Details from hello world...',
                 'This is information from the Hello World Information Factory',
             )
         ];
