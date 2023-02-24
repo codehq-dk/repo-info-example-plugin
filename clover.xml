@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1676844916">
-  <project timestamp="1676844916">
+<coverage generated="1677264521">
+  <project timestamp="1677264521">
     <file name="/home/jesper_privat/web-udvikling/repo-info-example-plugin/src/Factory/HelloWorldInformationFactory.php">
       <class name="CodeHqDk\RepositoryInformation\Factory\HelloWorldInformationFactory" namespace="global">
         <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="17" coveredelements="17"/>
