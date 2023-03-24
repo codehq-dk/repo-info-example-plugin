@@ -7,8 +7,16 @@ use CodeHqDk\RepositoryInformation\Model\RepositoryRequirements;
 
 class HelloWorldInformationFactory implements InformationFactory
 {
-    public function createBlocks(string $local_path_to_code): array
+    public const DEFAULT_ENABLED_BLOCKS = [
+        HelloWorldInformationBlock::class,
+    ];
+
+    public function createBlocks(string $local_path_to_code, array $information_block_types_to_create = self::DEFAULT_ENABLED_BLOCKS): array
     {
+        if (!in_array(HelloWorldInformationBlock::class, $information_block_types_to_create)) {
+            return [];
+        }
+
         return [
             new HelloWorldInformationBlock(
                 'Information plugin exmaple',
