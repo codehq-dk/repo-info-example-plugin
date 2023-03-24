@@ -5,4 +5,4 @@
 [![Test Coverage](https://raw.githubusercontent.com/codehq-dk/repo-info-example-plugin/main/badge-coverage.svg)](https://packagist.org/packages/codehq-dk/repo-info-example-plugin)
 
 
-### Hello World simple example of af Repository Information Plugin
+### Hello World simple implementation example of a Repository Information Plugin (`codehq-dk/repo-info-contracts`)
