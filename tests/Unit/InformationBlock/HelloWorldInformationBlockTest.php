@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeHqDk\RepositoryInformation\Tests\Unit\InformationBlock;
+namespace CodeHqDk\RepositoryInformation\ExamplePlugin\Tests\Unit\InformationBlock;
 
-use CodeHqDk\RepositoryInformation\InformationBlocks\HelloWorldInformationBlock;
+use CodeHqDk\RepositoryInformation\ExamplePlugin\InformationBlocks\HelloWorldInformationBlock;
 use PHPUnit\Framework\TestCase;
 
 class HelloWorldInformationBlockTest extends TestCase

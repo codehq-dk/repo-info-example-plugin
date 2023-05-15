@@ -1,8 +1,8 @@
 <?php
 
-namespace CodeHqDk\RepositoryInformation\Provider;
+namespace CodeHqDk\RepositoryInformation\ExamplePlugin\Provider;
 
-use CodeHqDk\RepositoryInformation\Factory\HelloWorldInformationFactory;
+use CodeHqDk\RepositoryInformation\ExamplePlugin\Factory\HelloWorldInformationFactory;
 use CodeHqDk\RepositoryInformation\Factory\InformationFactoryProvider;
 use CodeHqDk\RepositoryInformation\Service\ProviderDependencyService;
 

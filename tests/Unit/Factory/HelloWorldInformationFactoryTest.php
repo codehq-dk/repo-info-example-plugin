@@ -1,9 +1,9 @@
 <?php
 
-namespace CodeHqDk\RepositoryInformation\Tests\Unit\Factory;
+namespace CodeHqDk\RepositoryInformation\ExamplePlugin\Tests\Unit\Factory;
 
-use CodeHqDk\RepositoryInformation\Factory\HelloWorldInformationFactory;
-use CodeHqDk\RepositoryInformation\InformationBlocks\HelloWorldInformationBlock;
+use CodeHqDk\RepositoryInformation\ExamplePlugin\Factory\HelloWorldInformationFactory;
+use CodeHqDk\RepositoryInformation\ExamplePlugin\InformationBlocks\HelloWorldInformationBlock;
 use CodeHqDk\RepositoryInformation\Model\RepositoryRequirements;
 use PHPUnit\Framework\TestCase;
 

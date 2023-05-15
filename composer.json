@@ -10,12 +10,12 @@
     },
     "autoload": {
         "psr-4": {
-            "CodeHqDk\\RepositoryInformation\\": "src/"
+            "CodeHqDk\\RepositoryInformation\\ExamplePlugin\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "CodeHqDk\\RepositoryInformation\\Tests\\": "tests/"
+            "CodeHqDk\\RepositoryInformation\\ExamplePlugin\\Tests\\": "tests/"
         }
     },
     "require-dev": {
