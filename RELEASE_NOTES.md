@@ -1,6 +1,10 @@
 # Release notes
 ( Repository Information Example plugin )
 
+## Version 1.0.0-alpha3
+### Changes
+* Updated to version 1.0.0-alpha3 of `codehq-dk/repo-info-contracts`, and adjusted code.
+
 ## Version 1.0.0-alpha2
 ### Changes
 * Updated namespace to include ExamplePlugin

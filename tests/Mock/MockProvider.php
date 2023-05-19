@@ -20,7 +20,7 @@ class MockProvider implements ProviderDependencyService
         $this->register_in_dependency_injection_container_called = true;
     }
 
-    public function addInformactionFactoryToRegistry(InformationFactory $information_factory): void
+    public function addInformationFactoryToRegistry(InformationFactory $information_factory): void
     {
         $this->add_informaction_factory_to_registry_called = true;
     }

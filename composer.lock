@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "codehq-dk/repo-info-contracts",
-            "version": "1.0.0-alpha2",
+            "version": "1.0.0-alpha3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/codehq-dk/repo-info-contracts.git",
-                "reference": "24b11385caf69707d97f699eb3973f8aad507c72"
+                "reference": "a42ed69542266656bad7841eaee052d7916bf701"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codehq-dk/repo-info-contracts/zipball/24b11385caf69707d97f699eb3973f8aad507c72",
-                "reference": "24b11385caf69707d97f699eb3973f8aad507c72",
+                "url": "https://api.github.com/repos/codehq-dk/repo-info-contracts/zipball/a42ed69542266656bad7841eaee052d7916bf701",
+                "reference": "a42ed69542266656bad7841eaee052d7916bf701",
                 "shasum": ""
             },
             "require": {
@@ -39,9 +39,9 @@
             "description": "Repository Information Contract. Depend on this module when creation new repository information factory plugins",
             "support": {
                 "issues": "https://github.com/codehq-dk/repo-info-contracts/issues",
-                "source": "https://github.com/codehq-dk/repo-info-contracts/tree/1.0.0-alpha2"
+                "source": "https://github.com/codehq-dk/repo-info-contracts/tree/1.0.0-alpha3"
             },
-            "time": "2023-03-24T17:07:46+00:00"
+            "time": "2023-05-19T08:28:47+00:00"
         }
     ],
     "packages-dev": [

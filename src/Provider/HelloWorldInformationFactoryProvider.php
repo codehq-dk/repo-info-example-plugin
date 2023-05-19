@@ -11,6 +11,6 @@ class HelloWorldInformationFactoryProvider implements InformationFactoryProvider
     public function addFactory(ProviderDependencyService $provider_dependency_service): void
     {
         $provider_dependency_service->registerClassInDependencyContainer(HelloWorldInformationFactory::class);
-        $provider_dependency_service->addInformactionFactoryToRegistry(new HelloWorldInformationFactory());
+        $provider_dependency_service->addInformationFactoryToRegistry(new HelloWorldInformationFactory());
     }
 }
